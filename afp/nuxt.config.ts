@@ -4,4 +4,9 @@ export default defineNuxtConfig({
     css: [
         '~/assets/css/tailwind.css',
     ],
+    colorMode: {
+        classSuffix: '',
+        preference: 'system', 
+        fallback: 'dark',
+      },
 })
